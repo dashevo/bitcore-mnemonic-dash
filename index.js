@@ -1,1 +1,3 @@
-module.exports = require('./lib/mnemonic');
+const dashcore = require('@dashevo/dashcore-lib');
+
+module.exports = dashcore.Mnemonic;
